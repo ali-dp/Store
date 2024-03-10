@@ -20,6 +20,5 @@ const submitHandler = async (event) => {
     location.assign("index.html");
   }, 1500);
 };
-
 loginButton.addEventListener("click", submitHandler);
 document.addEventListener("DOMContentLoaded", authHandler);
